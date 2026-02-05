@@ -29,7 +29,7 @@ Our approach focuses on improving the accuracy and consistency of ChatGPT-4o's o
    ```python
    add_ball(space, (100, 50), 25, 1, (200, 200))
 3. **Multiple Independent Calls**: Each epoch involves three separate calls to ChatGPT-4o.
-4. **Fact-based Prompting**: We provide ChatGPT-4o with facts that have over 50% accuracy.
+4. **Fact-based Prompting**: We provide ChatGPT-4o with facts that have over 95% accuracy.
 5. **Similarity Analysis and Averaging**: Results from each epoch are processed using similarity metrics and averaging techniques. For example:
 6. **Iterative Refinement**: We insert the processed results into the next epoch's prompt as a hint, stating "Hint: the parameters are probably:".
 
